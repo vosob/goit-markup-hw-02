@@ -112,6 +112,17 @@ body {
     cursor: pointer;
 }
 
+.btn-filter {
+    font-family: inherit;
+    color: var(--accent-bgc);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    background-color: var(--secondary-bgc);
+    line-height: 1.5;
+    cursor: pointer;
+}
+
 .btn:focus,
 .btn:hover {
     background-color: var(--ocean-text-color);
@@ -123,7 +134,7 @@ body {
   |============================
 */
 
-.advantages-h2 {
+.advantages-item {
     color: var(--main-text-color);
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -212,3 +223,7 @@ body {
   | portfolio
   |============================
 */
+
+.hidden-h2 {
+    visibility: hidden;
+}
