@@ -108,11 +108,11 @@ body {
     font-weight: 500;
     letter-spacing: 0.04em;
     background-color: var(--accent-bgc);
-    line-height: 1.15;
+    line-height: 1.5;
     cursor: pointer;
 }
 
-.btn:active,
+.btn:focus,
 .btn:hover {
     background-color: var(--ocean-text-color);
 }
@@ -161,21 +161,26 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
+}
+
+.our-team {
+    background-color: var(--secondary-bgc);
 }
 
 .section-item h3 {
     color: var(--main-text-color);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
 
-.section-item p {
+.section-p {
     color: var(--secondary-text-color);
-    font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 /**
