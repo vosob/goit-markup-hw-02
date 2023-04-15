@@ -65,10 +65,6 @@ body {
     line-height: 1.5;
 }
 
-.site-info li {
-    list-style: none;
-}
-
 .site-item {
     color: var(--secondary-text-color);
 }
@@ -140,7 +136,7 @@ body {
   |============================
 */
 
-.advantages-item {
+.advantages-title {
     color: var(--main-text-color);
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -171,7 +167,7 @@ body {
 }
 
 .section-works,
-.section-team {
+.title-team {
     color: var(--main-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -181,11 +177,11 @@ body {
     text-transform: capitalize;
 }
 
-.our-team {
+.section-team {
     background-color: var(--secondary-bgc);
 }
 
-.our-item {
+.our-title {
     color: var(--main-text-color);
     font-size: 20px;
     font-weight: 500;
