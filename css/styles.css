@@ -112,6 +112,11 @@ body {
     cursor: pointer;
 }
 
+.btn:focus,
+.btn:hover {
+    background-color: var(--ocean-text-color);
+}
+
 .btn-filter {
     font-family: inherit;
     color: var(--accent-bgc);
@@ -123,8 +128,9 @@ body {
     cursor: pointer;
 }
 
-.btn:focus,
-.btn:hover {
+.btn-filter:focus,
+.btn-filter:hover {
+    color: var(--white-text-color);
     background-color: var(--ocean-text-color);
 }
 
