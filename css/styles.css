@@ -1,3 +1,167 @@
+/**
+  |============================
+  | default classes
+  |============================
+*/
+/* main text color #2E2F42 */
+/* secondary text color #434455 */
+/* white text color #FFFFFF */
+/* accent bgc #4D5AE5 */
+/* secondary bgc #F4F4FD */
+
+:root {
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --white-text-color: #ffffff;
+    --accent-bgc: #4d5ae5;
+    --secondary-bgc: #f4f4fd;
+}
+
 body {
-    background-color: tomato;
+    background-color: #ffffff;
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+/**
+  |============================
+  | header
+  |============================
+*/
+.logo {
+    color: var(--main-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+}
+
+.logo-color {
+    color: var(--accent-bgc);
+}
+
+.header-item {
+    color: var(--main-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.site-info {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.site-info li {
+    list-style: none;
+}
+
+.site-item {
+    color: var(--secondary-text-color);
+}
+
+.header-list a:hover,
+.header-list a:focus {
+    color: var(--accent-bgc);
+}
+
+.site-info a:hover,
+.site-info a:focus {
+    color: var(--accent-bgc);
+}
+
+/**
+  |============================
+  | section hero
+  |============================
+*/
+
+.hero {
+    color: var(--white-text-color);
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    background-color: var(--main-text-color);
+}
+
+.btn {
+    font-family: inherit;
+    color: var(--white-text-color);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background-color: var(--accent-bgc);
+    line-height: 1.18;
+    cursor: pointer;
+}
+
+/**
+  |============================
+  | section our advantages
+  |============================
+*/
+
+.advantages h3 {
+    color: var(--main-text-color);
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.advantages p {
+    color: var(--secondary-text-color);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+/**
+  |============================
+  | section what are we doing and our team
+  |============================
+*/
+
+.section {
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+}
+
+.section-item h3 {
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.section-item p {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+/**
+  |============================
+  | footer
+  |============================
+*/
+
+.footer p {
+    color: var(--white-text-color);
+    background-color: var(--main-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
