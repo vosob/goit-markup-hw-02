@@ -47,7 +47,7 @@ body {
     text-transform: uppercase;
 }
 
-.logo-color {
+.logo-dark {
     color: var(--main-text-color);
 }
 
@@ -167,9 +167,16 @@ body {
   |============================
 */
 
-.footer p {
-    color: var(--white-text-color);
+.footer {
     background-color: var(--main-text-color);
+}
+
+.logo-light {
+    color: var(--white-text-color);
+}
+
+.footer p {
+    color: var(--secondary-bgc);
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
