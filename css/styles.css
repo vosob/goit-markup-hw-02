@@ -19,16 +19,16 @@
 
 body {
     background-color: #ffffff;
-    color: var(--main-text-color);
+    color: var(--secondary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
 
-.list-none {
+.list {
     list-style: none;
 }
 
-.text-decoration {
+.link {
     text-decoration: none;
 }
 /**
@@ -37,15 +37,17 @@ body {
   |============================
 */
 .logo {
-    color: var(--main-text-color);
+    color: var(--accent-bgc);
     font-family: Raleway, sans-serif;
     font-size: 18px;
+    font-weight: 800;
     letter-spacing: 0.03em;
-    line-height: 1.33;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .logo-color {
-    color: var(--accent-bgc);
+    color: var(--main-text-color);
 }
 
 .header-item {
