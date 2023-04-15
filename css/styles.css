@@ -172,7 +172,7 @@ body {
 }
 
 .logo-light {
-    color: var(--white-text-color);
+    color: var(--secondary-bgc);
 }
 
 .footer p {
@@ -180,4 +180,14 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+/**
+  |============================
+  | portfolio
+  |============================
+*/
+
+.main-h1 {
+    visibility: hidden;
 }
