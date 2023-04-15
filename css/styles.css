@@ -98,18 +98,23 @@ body {
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    background-color: var(--main-text-color);
     text-align: center;
 }
 
 .btn {
     font-family: inherit;
     color: var(--white-text-color);
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     letter-spacing: 0.04em;
     background-color: var(--accent-bgc);
-    line-height: 1.18;
+    line-height: 1.15;
     cursor: pointer;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: var(--ocean-text-color);
 }
 
 /**
@@ -118,14 +123,15 @@ body {
   |============================
 */
 
-.advantages h3 {
+.advantages-item {
     color: var(--main-text-color);
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    font-weight: 500;
 }
 
-.advantages p {
+.advantages-p {
     color: var(--secondary-text-color);
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -137,10 +143,21 @@ body {
   |============================
 */
 
-.section {
+.section-hero {
     color: var(--main-text-color);
     font-size: 36px;
     font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    background-color: var(--main-text-color);
+}
+
+.section-works,
+.section-team {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
@@ -187,7 +204,3 @@ body {
   | portfolio
   |============================
 */
-
-.main-h1 {
-    visibility: hidden;
-}
