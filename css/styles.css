@@ -15,6 +15,7 @@
     --white-text-color: #ffffff;
     --accent-bgc: #4d5ae5;
     --secondary-bgc: #f4f4fd;
+    --ocean-text-color: #404bbf;
 }
 
 body {
@@ -55,7 +56,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .site-info {
@@ -74,12 +75,16 @@ body {
 
 .header-list a:hover,
 .header-list a:focus {
-    color: var(--accent-bgc);
+    color: var(--ocean-text-color);
 }
 
 .site-info a:hover,
 .site-info a:focus {
-    color: var(--accent-bgc);
+    color: var(--ocean-text-color);
+}
+
+.address {
+    font-style: normal;
 }
 
 /**
@@ -94,6 +99,7 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.07;
     background-color: var(--main-text-color);
+    text-align: center;
 }
 
 .btn {
@@ -137,6 +143,7 @@ body {
     font-weight: 600;
     letter-spacing: 0.02em;
     line-height: 1.11;
+    text-align: center;
 }
 
 .section-item h3 {
